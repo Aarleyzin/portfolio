@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio profissional com projetos e habilidades em desenvolvimento web">
+    <meta name="theme-color" content="#004080">
+    
+    <title>Meu Portfolio | Desenvolvedor Web</title>
+    
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Estilos -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-content container">
+            <a href="#" class="logo">
+                Meu Portfolio
+            </a>
+            
+            <nav>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <button class="dark-mode-toggle" aria-label="Alternar modo escuro">
+                <!-- Ícone será estilizado via CSS -->
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="section-hero">
+            <div class="container">
+                <div class="hero-content fade-in">
+                    <h1>Olá, eu sou <span class="highlight">Arlindo Orsini</span></h1>
+                    <p class="hero-description">Desenvolvedor Web Full Stack apaixonado por criar experiências digitais incríveis</p>
+                    <div class="hero-cta">
+                        <a href="#contact" class="btn btn-primary">Entre em Contato</a>
+                        <a href="#projects" class="btn btn-secondary">Ver Projetos</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section-about">
+            <div class="container">
+                <div class="section-content fade-in">
+                    <h2 class="section-title">Sobre Mim</h2>
+                    <div class="about-grid">
+                        <div class="about-text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p class="mt-2">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                        <div class="about-details">
+                            <ul class="details-list">
+                                <li><strong>Experiência:</strong> 5+ anos</li>
+                                <li><strong>Projetos:</strong> 50+ completos</li>
+                                <li><strong>Clientes:</strong> 30+ satisfeitos</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section-skills">
+            <div class="container">
+                <div class="section-content fade-in">
+                    <h2 class="section-title">Minhas Habilidades</h2>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>HTML & CSS</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>JavaScript</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <!-- Adicione mais habilidades conforme necessário -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section-projects">
+            <div class="container">
+                <div class="section-content fade-in">
+                    <h2 class="section-title">Projetos Recentes</h2>
+                    <div class="projects-grid">
+                        <!-- Project Card -->
+                        <article class="project-card">
+                            <div class="project-image">
+                                <img src="placeholder-project.jpg" alt="Projeto 1" loading="lazy">
+                            </div>
+                            <div class="project-info">
+                                <h3>Nome do Projeto</h3>
+                                <p>Descrição breve do projeto e tecnologias utilizadas.</p>
+                                <div class="project-links">
+                                    <a href="#" class="btn btn-small">Ver Projeto</a>
+                                    <a href="#" class="btn btn-small btn-outline">Código</a>
+                                </div>
+                            </div>
+                        </article>
+                        <!-- Adicione mais projetos conforme necessário -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section-contact">
+            <div class="container">
+                <div class="section-content fade-in">
+                    <h2 class="section-title">Entre em Contato</h2>
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Nome</label>
+                            <input type="text" id="name" name="name" class="form-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Mensagem</label>
+                            <textarea id="message" name="message" class="form-textarea" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="form-button">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Arlindo Orsini</h3>
+                    <p>Desenvolvedor Web Full Stack</p>
+                </div>
+                
+                <div class="social-media">
+                    <a href="#" class="social-link" aria-label="LinkedIn">
+                        <!-- Ícone será inserido via background-image ou SVG inline -->
+                    </a>
+                    <a href="#" class="social-link" aria-label="GitHub">
+                        <!-- Ícone será inserido via background-image ou SVG inline -->
+                    </a>
+                    <a href="#" class="social-link" aria-label="Twitter">
+                        <!-- Ícone será inserido via background-image ou SVG inline -->
+                    </a>
+                </div>
+                
+                <p class="copyright">© 2025 Arlindo Orsini. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
