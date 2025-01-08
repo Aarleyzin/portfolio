@@ -1,9 +1,11 @@
-
+# portfolio
 # Portfolio Pessoal
 
 Um portfolio profissional moderno e responsivo, construído com HTML, CSS e JavaScript vanilla. O site possui modo escuro, animações suaves e seções interativas para mostrar habilidades e projetos.
 
-![Preview do Portfolio]([preview.png](https://portfolioaarleyzin.netlify.app))
+ 
+🖼️ [Visite o Portfolio](https://portfolioaarleyzin.netlify.app)
+
 
 ## 🚀 Funcionalidades
 
@@ -135,9 +137,9 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ## 📫 Contato
 
-Seu Nome - [seu-email@exemplo.com](mailto:aarleyzin@gmail.com)
+Seu Nome - [aarleyzin@gmail.com](mailto:aarleyzin@gmail.com)
 
-Link do Projeto: [https://github.com/seu-usuario/portfolio](https://github.com/aarleyzin/portfolio)
+Link do Projeto: [https://github.com/aarleyzin/portfolio](https://github.com/aarleyzin/portfolio)
 
 ## 🙏 Agradecimentos
 
@@ -146,4 +148,4 @@ Link do Projeto: [https://github.com/seu-usuario/portfolio](https://github.com/a
 - [MDN Web Docs](https://developer.mozilla.org) - pela documentação
 
 ---
-⭐️ From [seu-usuario](https://github.com/aarleyzin)
+⭐️ From [Aarleyzin](https://github.com/aarleyzin)
