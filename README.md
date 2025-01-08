@@ -1,4 +1,3 @@
-# portfolio
 # Portfolio Pessoal
 
 Um portfolio profissional moderno e responsivo, construído com HTML, CSS e JavaScript vanilla. O site possui modo escuro, animações suaves e seções interativas para mostrar habilidades e projetos.
